@@ -62,7 +62,6 @@ constexpr float MILLISECONDS_IN_SECOND = 1000.0;
 constexpr char KNIGHT_SPRITE_FILEPATH[] = "HK1.png",
                HORNET_SPRITE_FILEPATH[]  = "Hornet1.png";
 
-
 SDL_Window* g_display_window;
 
 AppStatus g_app_status = RUNNING;
