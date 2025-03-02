@@ -60,7 +60,7 @@ constexpr char V_SHADER_PATH[] = "shaders/vertex_textured.glsl",
 constexpr float MILLISECONDS_IN_SECOND = 1000.0;
 
 constexpr char KNIGHT_SPRITE_FILEPATH[] = "HK1.png",
-               HORNET_SPRITE_FILEPATH[]  = "Hornet1.png";
+               HORNET_SPRITE_FILEPATH[]  = "rectangle_blue_real.png";
 
 SDL_Window* g_display_window;
 

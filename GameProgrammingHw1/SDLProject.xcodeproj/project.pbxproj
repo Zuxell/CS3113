@@ -31,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		897C35632D72395C006DC5A4 /* Rectangle_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle_Blue.png; sourceTree = "<group>"; };
+		897C35692D731293006DC5A4 /* rectangle_blue_real.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle_blue_real.png; sourceTree = "<group>"; };
 		89FBDE302D6180BD00E0FD7F /* HK1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HK1.png; sourceTree = "<group>"; };
 		89FBDE312D6180BD00E0FD7F /* Hornet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hornet1.png; sourceTree = "<group>"; };
 		DBDF1B4F2323DE3F007CECB1 /* SDLProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,8 @@
 				DBDF1B5C2323DE8D007CECB1 /* shaders */,
 				DBDF1B5A2323DE8D007CECB1 /* stb_image.h */,
 				DBDF1B522323DE3F007CECB1 /* main.cpp */,
+				897C35632D72395C006DC5A4 /* Rectangle_Blue.png */,
+				897C35692D731293006DC5A4 /* rectangle_blue_real.png */,
 				89FBDE302D6180BD00E0FD7F /* HK1.png */,
 				89FBDE312D6180BD00E0FD7F /* Hornet1.png */,
 			);
