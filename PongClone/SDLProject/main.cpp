@@ -77,7 +77,7 @@ glm::vec3 g_RED_position = glm::vec3(0.0f, 0.0f, 0.0f);
 glm::vec3 g_RED_movement = glm::vec3(0.0f, 0.0f, 0.0f);
 
 glm::vec3 g_BALL_position = glm::vec3(0.0f, 0.0f, 0.0f);
-glm::vec3 g_BALL_movement = glm::vec3(-0.5f, 0.5f, 0.0f);
+glm::vec3 g_BALL_movement = glm::vec3(0.0f, 0.0f, 0.0f); //WAS (-0.5f, 0.5f, 0.0f)
 
 bool red_at_ceiling = false;
 bool red_at_floor = false;
@@ -93,6 +93,7 @@ bool single_player = false;
 bool game_running = true;
 bool red_win = false;
 bool blue_win = false;
+bool start = false;
 
 void initialise();
 void process_input();
@@ -211,7 +212,12 @@ void process_input()
      g_RED_movement.y = 0.0f;
     
      const Uint8 *key_state = SDL_GetKeyboardState(NULL);
-     
+    
+    if (key_state[SDL_SCANCODE_SPACE]){
+        g_BALL_movement.x = -0.5;
+        g_BALL_movement.y = 0.5;
+    }
+    
      if (key_state[SDL_SCANCODE_W] and red_at_ceiling == false){
          g_RED_movement.y = 1.0f;
      }
@@ -347,11 +353,13 @@ void process_input()
         //end game
         
         if (g_BALL_position.x > 4.75){
+            LOG("BALL HIT RIGHT");
             game_running = false;
             red_win = true;
         }
         
         if (g_BALL_position.x < -4.75){
+            LOG("BALL HIT LEFT");
             game_running = false;
             blue_win = true;
         }
