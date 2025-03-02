@@ -169,6 +169,7 @@ void initialise()
 
     g_BLUE_texture_id = load_texture(BLUE_SPRITE_FILEPATH);
     g_RED_texture_id = load_texture(RED_SPRITE_FILEPATH);
+    g_BALL_texture_id = load_texture(BALL_SPRITE_FILEPATH);
 
     // enable blending
     glEnable(GL_BLEND);
@@ -179,7 +180,6 @@ void initialise()
 
 void process_input()
 {
-    
 
     SDL_Event event;
     while (SDL_PollEvent(&event))
