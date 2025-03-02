@@ -1,11 +1,11 @@
-PRESS SPACE TO START
+Press SPACE to start
 
-LEFT USES W AND S
+Left uses W and S
 
-RIGHT USES UP AND DOWN ARROWS
+Right uses UP and DOWN
 
-T MAKES IT SINGLE PLAYER
+T makes game single player
 
-Y MAKES IT TWO PLAYER AGAIN
+Y makes game two player again
 
-GAME STOPS WHEN BALL HITS SIDE
+Game stops when ball hits side
