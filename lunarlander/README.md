@@ -1,2 +1,2 @@
-Left and right to mveo left and right
+Left right and up to adjust acceleration
 Don't fall into the lava or run out of fuel
