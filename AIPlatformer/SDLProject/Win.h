@@ -1,4 +1,4 @@
-#include "Win.h"
+#include "Scene.h"
 
 class Win : public Scene {
 public:
