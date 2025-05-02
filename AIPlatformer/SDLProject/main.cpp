@@ -95,7 +95,7 @@ void initialise()
     SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO);
     g_display_window = SDL_CreateWindow("Hello, Platformer!",
                                       SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-                                      WINDOW_WIDTH, WINDOW_HEIGHT,
+                                      WINDOW_WIDTH * 1.5, WINDOW_HEIGHT * 1.5,
                                       SDL_WINDOW_OPENGL);
     
     SDL_GLContext context = SDL_GL_CreateContext(g_display_window);
